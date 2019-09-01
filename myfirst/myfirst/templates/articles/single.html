@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Django blog</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-8 d-flex align-items-center justify-content-center justify-content-md-start">
+                    <h1 class="logo">
+                        DJANGO BLOG
+                    </h1>
+                </div>
+                <!-- /.col -->
+                <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
+                    <ul class="social d-flex ml-md-auto">
+                        <li class="social__icon">
+                            <a href="#">
+                                <img src="images/icon/facebook.png" alt="" class="icon">
+                            </a>
+                        </li>
+                        <li class="social__icon">
+                            <a href="#">
+                                <img src="images/icon/instagram.png" alt="" class="icon">
+                            </a>
+                        </li>
+                        <li class="social__icon">
+                            <a href="#">
+                                <img src="images/icon/twitter.png" alt="" class="icon">
+                            </a>
+                        </li>
+                        <li class="social__icon">
+                            <a href="#">
+                                <img src="images/icon/vkontakte.png" alt="" class="icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="row new-article">
+                        <div class="col-12 article">
+                            <div class="col block">
+                                <div class="row head">
+                                    <div class="col d-flex">
+                                        <img class="author-img" src="images/author.jpg" alt="">
+                                        <div class="article-top">
+                                            <h1 class="article-title">Сегодня было нечто</h1>
+                                            <a href="#" class="author-link"><strong class="author">Автор</strong></a>
+                                        </div>
+                                    </div>
+                                    <!-- /.col -->
+                                    <div class="col-3">
+                                        <p class="signal d-flex justify-content-end">NEW</p>
+                                    </div>
+                                    <!-- /.col -->
+                                </div>
+                                <!-- /.row -->
+                                <div class="row arcicle-content">
+                                    <div class="col-12 col-img">
+                                        <img class="article-img" src="images/article.jpg" alt="">
+                                    </div>
+                                    <!-- /.col-md-6 -->
+                                    <div class="col-12">
+                                        <p class="article-text-min">
+                                            Захожу я в дверь и тут кто - то сидит и я не понимаю что прохожу я в
+                                            дверь и тут
+                                            кто - то сидит и я не понимаю что прохожу я в дверь и тут кто - то сидит
+                                            и я не
+                                            понимаю что прохожу я в дверь и тут кто - то сидит и я не понимаю что
+                                            прохожу я
+                                            в дверь и тут кто - то сидит и я не понимаю что прохожу я в дверь и тут
+                                            кто - то
+                                            сидит и я не понимаю...
+                                        </p>
+                                    </div>
+                                    <!-- /.col-md-6 -->
+                                </div>
+                                <!-- /.row -->
+                                <div class="row artcicle-bot">
+                                    <div class="col">
+                                        <a href="#" class="link-read d-flex ml-auto">ЧИТАТЬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                    </div>
+                    <div class="row comment">
+                        <!-- * Комментарий -->
+                        <div class="col-12 d-flex block">
+                            <img class="author-img" src="images/author.jpg" alt="">
+                            <div class="article-top">
+                                <a href="#" class="link">
+                                    <p class="article-title">Сегодня было нечто</p>
+                                </a>
+                                <a href="#" class="author-link"><strong class="author">Автор</strong></a>
+                            </div>
+                        </div>
+                        <!-- * / Комментарий -->
+                        <div class="col-12 d-flex block">
+                            <img class="author-img" src="images/author.jpg" alt="">
+                            <div class="article-top">
+                                <a href="#" class="link">
+                                    <p class="article-title">Сегодня было нечто</p>
+                                </a>
+                                <a href="#" class="author-link"><strong class="author">Автор</strong></a>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex block">
+                            <img class="author-img" src="images/author.jpg" alt="">
+                            <div class="article-top">
+                                <a href="#" class="link">
+                                    <p class="article-title">Сегодня было нечто</p>
+                                </a>
+                                <a href="#" class="author-link"><strong class="author">Автор</strong></a>
+                            </div>
+                        </div>
+                        <!-- * форма  -->
+                        <div class="col-12 col-lg-6 block d-flex align-items-center justify-content-center">
+                            <form class="form">
+                                <div class="field">
+                                    <label for="name">Имя</label>
+                                    <input type="text" name="name">
+                                </div>
+                                <div class="field">
+                                    <label for="comment">Комментарий</label>
+                                    <input type="text" name="comment">
+                                </div>
+                                <a type="submit" href="#" class="link-read d-flex ml-auto">ОТПРАВИТЬ</a>
+                            </form>
+                        </div>
+                        <!-- * / форма  -->
+                    </div>
+
+
+                </div>
+                <!-- Сайдабар -->
+                <div class="col-12 col-md-4 sidebar">
+                    <div class="block">
+                        <!-- Лучшие авторы -->
+                        <div class="row">
+                            <div class="col-12">
+                                <h1 class="sidebar-title">Лучшие авторы</h1>
+                            </div>
+                            <div class="col-12">
+                                <!-- Здесь будет слайдер -->
+                                <a href="#"><img class="author-img" src="images/author.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <!-- Популярные статьи -->
+                        <div class="row">
+                            <div class="col-12">
+                                <h1 class="sidebar-title">Популярные статьи</h1>
+                            </div>
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col d-flex">
+                                        <img class="author-img" src="images/author.jpg" alt="">
+
+                                        <div class="article-top">
+                                            <a href="#" class="link">
+                                                <h1 class="article-title">Сегодня было нечто</h1>
+                                            </a>
+                                            <a href="#" class="author-link"><strong class="author">Автор</strong></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col d-flex">
+                                        <img class="author-img" src="images/author.jpg" alt="">
+
+                                        <div class="article-top">
+                                            <a href="#" class="link">
+                                                <h1 class="article-title">Сегодня было нечто</h1>
+                                            </a>
+                                            <a href="#" class="author-link"><strong class="author">Автор</strong></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col d-flex">
+                                        <img class="author-img" src="images/author.jpg" alt="">
+
+                                        <div class="article-top">
+                                            <a href="#" class="link">
+                                                <h1 class="article-title">Сегодня было нечто</h1>
+                                            </a>
+                                            <a href="#" class="author-link"><strong class="author">Автор</strong></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Последние комментарии -->
+                        <div class="row comments">
+                            <div class="col-12">
+                                <h1 class="sidebar-title">Последние комментарии</h1>
+                            </div>
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col d-flex">
+                                        <img class="author-img" src="images/author.jpg" alt="">
+
+                                        <div class="article-top">
+                                            <a href="#" class="link">
+                                                <p class="article-title">Сегодня было нечто</p>
+                                            </a>
+                                            <a href="#" class="author-link"><strong class="author">Автор</strong></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col d-flex">
+                                        <img class="author-img" src="images/author.jpg" alt="">
+
+                                        <div class="article-top">
+                                            <a href="#" class="link">
+                                                <p class="article-title">Сегодня было нечто</p>
+                                            </a>
+                                            <a href="#" class="author-link"><strong class="author">Автор</strong></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col d-flex">
+                                        <img class="author-img" src="images/author.jpg" alt="">
+
+                                        <div class="article-top">
+                                            <a href="#" class="link">
+                                                <p class="article-title">Сегодня было нечто</p>
+                                            </a>
+                                            <a href="#" class="author-link"><strong class="author">Автор</strong></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
